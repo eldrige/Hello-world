@@ -4,8 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    hello world
+    <header class="bg-white py-4 w-full">
+      <nav class="flex items-center justify-between w-full mx-auto max-w-7xl">
+        <h1 class="text-blue-500 text-3xl font-bold">FeWo-direkt</h1>
+        <div
+          class="flex items-center text-gray-600 list-none gap-4 font-semibold"
+        >
+          <li
+            class="border boder-gray-600 rounded-2xl px-3 py-1 flex items-center gap-1"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-4"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+              />
+            </svg>
+
+            Download the app
+          </li>
+          <li>travel planner</li>
+          <li>register accomodation</li>
+          <li>Help</li>
+          <li>My travels</li>
+          <li>Register</li>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section
+        class="h-[65vh] bg-red-500 bg-[url('./assets/bg-image.jpg')] bg-cover bg-center flex items-center justify-center"
+      >
+        <div>
+          <h1>Everything is fine, you book with FeWo-direkt</h1>
+          <div>
+            <button>seek</button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
